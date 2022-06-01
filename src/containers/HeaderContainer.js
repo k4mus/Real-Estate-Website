@@ -29,7 +29,7 @@ const HeaderContainer = ({ bg, source }) => {
         <HeaderWrapper.Container>
           <HeaderWrapper.Title bg={bg}>
             <HeaderWrapper.Link bg={bg} fixed={fixed} to="/">
-              Real Home
+              Roofin
             </HeaderWrapper.Link>
           </HeaderWrapper.Title>
           <HeaderWrapper.LinksContainer>
@@ -62,10 +62,9 @@ const HeaderContainer = ({ bg, source }) => {
       {bg === "true" && (
         <Jumbotron>
           <Jumbotron.Left>
-            <Jumbotron.Title>Find The Home You Deserve With Us</Jumbotron.Title>
+            <Jumbotron.Title>Te ayudamos a encontrar la mejor propiedad para tu bolsillo</Jumbotron.Title>
             <Jumbotron.Text>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat,
-              exercitationem.
+              desde el mejor proyecto , hasta el mejor crédito
             </Jumbotron.Text>
           </Jumbotron.Left>
           <Jumbotron.Right>
